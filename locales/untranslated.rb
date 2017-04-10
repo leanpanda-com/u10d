@@ -13,8 +13,9 @@ I18n.available_locales.reduce({}) do |a, locale|
           it: "Italiano",
           ml: "മലയാളം",
           pt: "Português",
-          uk: "український",
+          ro: "română",
           ru: "русский",
+          uk: "український",
           zh: "中文"
         }
       }
