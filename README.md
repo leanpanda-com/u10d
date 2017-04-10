@@ -1,4 +1,4 @@
-# U10d
+# U10d - Untranslated language names
 
 In multilingual user interfaces, it is common to present choices as language
 names.
