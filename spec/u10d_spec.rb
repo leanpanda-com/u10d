@@ -17,8 +17,7 @@ RSpec.describe U10d do
 
     before do
       I18n.available_locales = U10d::KNOWN_LANGUAGES
-      I18n.load_path = [File.join(root_path, "locales", "untranslated.rb")]
-      I18n.reload!
+      described_class.activate!
       @previous_locale = I18n.locale
     end
 
