@@ -16,8 +16,18 @@ gem "u10d"
 
 ## Usage
 
+Autoglottonyms are created on-the-fly, based on your `available_locales`:
+
 ```ruby
-require "u10d"
+main> require "u10d"
+main> I18n.available_locales = [:ru, :en]
+main> U10d.activate!
+main> I18n.locale = :en
+main> I18n.t("untranslated.language.by_code.ru")
+=> "русский"
+main> I18n.locale = :ru
+main> I18n.t("untranslated.language.by_code.ru")
+=> "русский"
 ```
 
 ## Contributing
