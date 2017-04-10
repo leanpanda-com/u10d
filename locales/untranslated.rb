@@ -7,12 +7,18 @@ I18n.available_locales.reduce({}) do |a, locale|
           ar: "العربية",
           de: "Deutsch",
           en: "English",
-          es: "español",
-          fr: "français",
-          it: "italiano"
+          es: "Español",
+          fr: "Français",
+          hu: "Magyar",
+          it: "Italiano",
+          ml: "മലയാളം",
+          pt: "Português",
+          uk: "український",
+          ru: "русский",
+          zh: "中文"
         }
-      } 
-    } 
+      }
+    }
   }
   a
 end
