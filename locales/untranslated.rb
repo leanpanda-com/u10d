@@ -15,7 +15,7 @@ I18n.available_locales.reduce({}) do |a, locale|
           pt: "Português",
           ro: "română",
           ru: "русский",
-          uk: "український",
+          uk: "УКРАЇНСЬКА",
           zh: "中文"
         }
       }
