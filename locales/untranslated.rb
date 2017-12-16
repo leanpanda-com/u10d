@@ -5,6 +5,7 @@ I18n.available_locales.reduce({}) do |a, locale|
       language: {
         by_code: {
           ar: "العربية",
+          bg: "български",
           de: "Deutsch",
           en: "English",
           es: "español",
