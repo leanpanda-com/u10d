@@ -11,6 +11,7 @@ I18n.available_locales.reduce({}) do |a, locale|
           es: "español",
           fr: "français",
           hu: "magyar",
+          id: "indonesia",
           it: "italiano",
           ml: "മലയാളം",
           pt: "Português",

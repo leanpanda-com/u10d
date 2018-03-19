@@ -2,7 +2,7 @@ require "u10d/version"
 require "i18n"
 
 module U10d
-  KNOWN_LANGUAGES = %i(ar de en es fr hu it ml pt ro ru zh)
+  KNOWN_LANGUAGES = %i(ar de en es fr hu id it ml pt ro ru zh)
 
   def self.activate!
     root_path = File.expand_path("..", __dir__)
