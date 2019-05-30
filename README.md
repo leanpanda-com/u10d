@@ -1,3 +1,8 @@
+[![Build Status](https://secure.travis-ci.org/leanpanda-com/u10d.svg)][Continuous Integration]
+
+[Source Code]: https://github.org/leanpanda-com/u10d "Source code at GitHub"
+[Continuous Integration]: http://travis-ci.org/leanpanda-com/u10d "Build status by Travis-CI"
+
 # U10d - Untranslated language names
 
 In multilingual user interfaces, it is common to present choices as language
