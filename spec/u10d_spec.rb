@@ -1,4 +1,3 @@
-# coding: utf-8
 require "spec_helper"
 
 RSpec.describe U10d do
@@ -14,15 +13,15 @@ RSpec.describe U10d do
 
   context "when accessing by code" do
     let(:root_path) { File.expand_path("..", __dir__) }
+    let!(:previous_locale) { I18n.locale }
 
     before do
       I18n.available_locales = U10d::KNOWN_LANGUAGES
       described_class.activate!
-      @previous_locale = I18n.locale
     end
 
     after do
-      I18n.locale = @previous_locale
+      I18n.locale = previous_locale
     end
 
     U10d::KNOWN_LANGUAGES.each do |current_locale|

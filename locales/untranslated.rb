@@ -1,6 +1,5 @@
-# coding: utf-8
-I18n.available_locales.reduce({}) do |a, locale|
-  a[locale] = {
+I18n.available_locales.each.with_object({}) do |locale, acc|
+  acc[locale] = {
     untranslated: {
       language: {
         by_code: {
@@ -23,5 +22,4 @@ I18n.available_locales.reduce({}) do |a, locale|
       }
     }
   }
-  a
 end
