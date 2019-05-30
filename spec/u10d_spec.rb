@@ -24,7 +24,7 @@ RSpec.describe U10d do
       I18n.locale = previous_locale
     end
 
-    U10d::KNOWN_LANGUAGES.each do |current_locale|
+    %i(en ru zh).each do |current_locale|
       context "in :#{current_locale}" do
         before { I18n.locale = current_locale }
 
