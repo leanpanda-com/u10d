@@ -16,6 +16,7 @@ I18n.available_locales.each.with_object({}) do |locale, acc|
           pt: "Português",
           ro: "română",
           ru: "русский",
+          tr: "türk",
           uk: "УКРАЇНСЬКА",
           zh: "中文"
         }
